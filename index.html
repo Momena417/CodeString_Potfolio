@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo"><span>M</span>omena</h1>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, I'm Syeda <span>Momena</span> <br> Nadeem from Pakistan</h1>
+            </div>
+        </div>
+    </header>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg" alt="Portrait of Syeda Momena Nadeem">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a dedicated and versatile Software Engineer with a strong foundation in both technical and business writing. With over 5 years of experience in the tech industry, I have honed my skills in software development, project management, and technical documentation. 
+                        As an aspiring writer, I am dedicated to crafting compelling narratives and engaging content across various genres and platforms. My goal is to contribute my creative talents and storytelling abilities to projects that captivate and inspire audiences, while continually honing my craft and expanding my literary horizons.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development </li>
+                            <li><span>App Development</span><br>Building Android/IOS Apps</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>July 2024 - Current</span><br>Internship at Code String</li>
+                            <li><span>May 2021 - May 2023</span><br>Senior Software Engineer | Devsinc </li>
+                            <li><span>May 2018 - May 2020</span><br>Software Developer | Devsinc</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>BS-SE</span><br>Lahore Garrison University</li>
+                            <li><span>FSC Pre Eng</span><br>Azam Garrison </li>
+                            <li><span>Matriculation</span><br>Azam Garrison</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, nesciunt sapiente atque dolorum molestiae ex quos mollitia ut, vel doloribus cupiditate vitae repellat numquam labore perferendis laudantium nobis earum laboriosam.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, nesciunt sapiente atque dolorum molestiae ex quos mollitia ut, vel doloribus cupiditate vitae repellat numquam labore perferendis laudantium nobis earum laboriosam.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, nesciunt sapiente atque dolorum molestiae ex quos mollitia ut, vel doloribus cupiditate vitae repellat numquam labore perferendis laudantium nobis earum laboriosam.</p>
+                    <a href="#">Learn More</a>
+                </div>     
+            </div>
+        </div>
+    </div>
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>This app connects you to the talented people around the world. Download it from PlayStore</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>This app connects you to the talented people around the world. Download it from PlayStore</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Online shopping App</h3>
+                        <p>This app connects you to the talented people around the world. Download it from PlayStore</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i> momenanadeemofficial@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +92 3318737329</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/syeda-momena-nadeem-8890962b9/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/ayesha.417"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/momena.417/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+
+                    <a href="images/my-cv.pdf" download="" class="btn btn2">Download CV</a>
+                </div>
+
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit">Sumbit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
